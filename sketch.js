@@ -77,6 +77,7 @@ function draw() {
   if (currentQuestion < questions.length) {
     let q = questions[currentQuestion];
     textSize(32);
+    fill(0); // 題目顏色固定黑色
     text(q.question, width / 2, height / 2 - 100);
 
     // 顯示答案框
